@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --onyx: #3d3d3dff;
+  --pacificBlue: #009fb7ff;
+  --eggshell: #f1e9daff;
+  --flame: #de541eff;
+  --oliveDrab3: #778b04ff;
+
+  @font-face {
+    font-family: 'noticia-text';
+    src: url('noticiatext-bold-webfont.woff2') format('woff2'),
+         url('noticiatext-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'noticia-text';
+    src: url('noticiatext-regular-webfont.woff2') format('woff2'),
+         url('noticiatext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.text-color-olive {
+  color: var(--oliveDrab3);
+}
+
+.font-family-noticia-text,
+.reveal .font-family-noticia-text > h1 {
+  font-family: "noticia-text sans-serif";
+}
+

@@ -1,0 +1,26 @@
+{
+  "name": "history_of_css",
+  "version": "1.0.0",
+  "description": "A Spectacle presentation about the history of CSS",
+  "main": "index.js",
+  "repository": "git@github.com:martin-watts/history_of_css.git",
+  "author": "Martin Watts <martin.watts.dev@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "reveal.js": "^4.4.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.4.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "svelte": "^3.55.0",
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.2.5"
+  }
+}
