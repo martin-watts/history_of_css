@@ -4,11 +4,11 @@ A History of CSS
 This is a presentation about the history of CSS, how it came to be a thing, what it replaced, and how it has evolved.
 
 The content of the slides is my own work, the presentation is built using 
-(svelte-slides)[https://github.com/rajasegar/svelte-slides] which makes use of: 
-- (Svelte)[https://svelte.dev/]
-- (Reveal.js)[https://revealjs.com/]
-- (TailwindCSS)[https://tailwindcss.com] and 
-- (Vite)[https://vitejs.dev/]
+[svelte-slides](https://github.com/rajasegar/svelte-slides) which makes use of: 
+- [Svelte](https://svelte.dev/)
+- [Reveal.js](https://revealjs.com/)
+- [TailwindCSS](https://tailwindcss.com) and 
+- [Vite](https://vitejs.dev/)
 
 ## How does it work?
 - Each slide is both a Svelte component and Reveal.js slide.
