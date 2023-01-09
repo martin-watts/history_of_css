@@ -10,6 +10,15 @@ The content of the slides is my own work, the presentation is built using
 - [TailwindCSS](https://tailwindcss.com) and 
 - [Vite](https://vitejs.dev/)
 
+## Getting started
+You'll need [pnpm](https://pnpm.io/), which can be installed using npm: `npm install -g pnpm`
+
+Run `pnpm install` to get all the necessary dependencies, then `pnpm dev` to start a local webserver with [HMR](https://vitejs.dev/guide/features.html#hot-module-replacement).
+
+To build the presentation for a production deployment run `pnpm build` which outputs to `/dist`. 
+
+To preview the site in `/dist` run `pnpm preview`.
+
 ## How does it work?
 - Each slide is both a Svelte component and Reveal.js slide.
 - There can be one or more slides (using `<section/>`) within a single Svelte component.
