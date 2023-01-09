@@ -33,6 +33,14 @@
   height: 100vh;
 }
 
+.bg-olive {
+  background-color: var(--oliveDrab3);
+}
+
+.text-color-eggshell {
+  color: var(--eggshell);
+}
+
 .text-color-pacific-blue {
   color: var(--pacificBlue);
 }
@@ -41,8 +49,15 @@
   color: var(--oliveDrab3);
 }
 
+.text-color-flame {
+  color: var(--flame);
+}
+
 .font-family-noticia-text,
 .reveal .font-family-noticia-text > h1 {
   font-family: "noticia-text sans-serif";
 }
 
+.translate-x-19p6 {
+  transform: translateX(19.6rem);
+}
