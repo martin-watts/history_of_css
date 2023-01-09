@@ -12,7 +12,7 @@
 </Slide>
 <Slide data-auto-animate class="font-family-noticia-text">
   <h1 class="mr-20 text-8xl text-right">
-    A History of <span class="text-9xl">CSS</span>
+    A History of <span class="text-9xl text-color-pacific-blue">CSS</span>
   </h1>
   <p class="mr-20 text-right text-color-olive">
     By Martin Watts
