@@ -13,7 +13,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "reveal.js": "^4.4.0"
+    "reveal.js": "^4.4.0",
+    "svelte-layouts": "^0.9.6"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.4.0",
