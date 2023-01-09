@@ -40,7 +40,7 @@
   <p><b>Question:</b> When was the World Wide Web released?</p>
   <ul class="pt-5 pl-5 self-center list-none">
     {#each answers as answer}
-      <li class="mb-16"><span class="border rounded-md p-5">{answer.text}</span></li>
+      <li class="mb-16"><span class="border rounded-md p-5 fragment fade-up">{answer.text}</span></li>
     {/each}
   </ul>
 </Slide>
