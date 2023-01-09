@@ -22,7 +22,7 @@
       <li class="fragment fade-up mb-5">I have been writing software for {devYears} years.</li>
       <li class="fragment fade-up mb-5">People have been paying me to do it for {proDevYears} years.</li>
       <li class="fragment fade-up mb-5">I currently work at Mayden.</li>
-      <li class="fragment fade-up mb-5">
+      <li class="fragment fade-up">
         I am <em>not</em> a CSS expert, but I do know where thewithout <a href="https://developer.mozilla.org/en-US/" rel="external">Mozilla Developer Network</a> 
         and <a href="https://css-tricks.com/" rel="external">CSS Tricks</a> live.
       </li>
