@@ -4,6 +4,7 @@
     import AboutAuthor from './slides/AboutAuthor.svelte';
     import Quiz from './slides/Quiz.svelte';
     import Timeline1991 from './slides/Timeline1991.svelte';
+    import HistoryOfWWW from './slides/HistoryOfWWW.svelte';
 
     export let deck;
 </script>
@@ -13,4 +14,5 @@
 <AboutAuthor/>
 <Quiz deck={deck}/>
 <Timeline1991 deck={deck}/>
+<HistoryOfWWW />
 
