@@ -9,6 +9,7 @@
     import MosaicBrowser from './slides/MosaicBrowser.svelte';
     import Timeline1993 from './slides/Timeline1993.svelte';
     import MarcAndreesen from './slides/MarcAndreesen.svelte';
+    import Tags from './slides/Tags.svelte';
 
     export let deck;
 </script>
@@ -23,4 +24,5 @@
 <Timeline1993 deck={deck} />
 <MosaicBrowser />
 <MarcAndreesen />
+<Tags />
 
