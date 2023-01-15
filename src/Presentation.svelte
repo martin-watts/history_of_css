@@ -8,6 +8,7 @@
     import WorldWideWebBrowser from './slides/WorldWideWebBrowser.svelte';
     import MosaicBrowser from './slides/MosaicBrowser.svelte';
     import Timeline1993 from './slides/Timeline1993.svelte';
+    import MarcAndreesen from './slides/MarcAndreesen.svelte';
 
     export let deck;
 </script>
@@ -21,4 +22,5 @@
 <WorldWideWebBrowser />
 <Timeline1993 deck={deck} />
 <MosaicBrowser />
+<MarcAndreesen />
 
