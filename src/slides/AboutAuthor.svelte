@@ -7,7 +7,7 @@
   const proDevYears = currentYear - 2007;
 </script>
 
-<Slide>
+<Slide data-transition="slide-in">
   <h2>
     About me:
   </h2>
@@ -29,12 +29,17 @@
     </ul>
   </Row>
 </Slide>
-<Slide>
-  <h2>
-    About me:
+<Slide data-transition="none">
+  <h2 class="-mt-5">
+    More about me:
   </h2>
   <ul>
     <li class="fragment fade-up mb-5">My first PC looked like this: <img class="h-96 my-5 mx-auto" src="/assets/images/amstrad_pc_1512.webp" alt="Amstrad PC 1512 - a computer from the 1980s"/></li>
     <li class="fragment fade-up mb-5">Basically, I've seen stuff.</li>
   </ul>
+</Slide>
+<Slide data-transition="none">
+  <p class="r-fit-text">
+    On to the talk...
+  </p>
 </Slide>
