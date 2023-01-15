@@ -5,6 +5,7 @@
     import Quiz from './slides/Quiz.svelte';
     import Timeline1991 from './slides/Timeline1991.svelte';
     import HistoryOfWWW from './slides/HistoryOfWWW.svelte';
+    import WorldWideWebBrowser from './slides/WorldWideWebBrowser.svelte';
 
     export let deck;
 </script>
@@ -15,4 +16,5 @@
 <Quiz deck={deck}/>
 <Timeline1991 deck={deck}/>
 <HistoryOfWWW />
+<WorldWideWebBrowser />
 
