@@ -35,22 +35,22 @@
   }
 </script>
 
-<Slide data-transition="zoom-in fade-out">
-  <p>The history of CSS is intrinsically linked to the history of the World Wide Web.</p>
+<Slide data-transition="zoom-in">
+  <p>It all started with the Web.</p>
   <p><b>Question:</b> When was the World Wide Web released?</p>
   <ul class="pt-5 pl-5 self-center list-none">
     {#each answers as answer}
-      <li class="mb-16"><span class="border rounded-md p-5 fragment fade-up">{answer.text}</span></li>
+      <li class="mb-16"><span class="border-2 rounded-md p-5 fragment fade-up">{answer.text}</span></li>
     {/each}
   </ul>
 </Slide>
 <Slide data-transition="none" data-id="quiz-2">
-  <p>The history of CSS is intrinsically linked to the history of the World Wide Web.</p>
+  <p>It all started with the Web.</p>
   <p><b>Question:</b> When was the World Wide Web released?</p>
   <ul class={'pt-5 pl-5 self-center list-none ' + (transitionStart ? 'translate-x-0 transition-transform duration-1000' : 'translate-x-19p6')}>
     {#each answers as answer}
       <li class="mb-16">
-        <span class={'border rounded-md p-5 ' + (transitionStart && answer.correct ? 'transition-colors duration-500 bg-olive' : '')}>{answer.text}</span>
+        <span class={'border-2 rounded-md p-5 ' + (transitionStart && answer.correct ? 'transition-colors duration-500 bg-olive' : '')}>{answer.text}</span>
         <span class={'ml-5 ' + (transitionStart ? 'transition-opacity duration-800 opacity-100' : 'opacity-0')}>{answer.information}</span>
       </li>
     {/each}
