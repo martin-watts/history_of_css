@@ -16,6 +16,7 @@
     import NetscapeHTML from './slides/NHMTL.svelte';
     import Timeline1994 from './slides/Timeline1994.svelte';
     import Timeline1994_2 from './slides/Timeline1994_2.svelte';
+    import Timeline1995 from './slides/Timeline1995.svelte';
 
     export let deck;
 </script>
@@ -37,4 +38,5 @@
 <Timeline1994_2 deck={deck} />
 <NetscapeHTML/>
 <BatmanForever/>
+<Timeline1995 deck={deck} />
 
