@@ -2,10 +2,13 @@
   li {
     position: relative;
     text-align: center;
-    width: var(--width, 22rem);
+    width: var(--width, 27rem);
     opacity: var(--opacity, 1);
-    transition: all;
-    transition-duration: 0.5s;
+    margin-left: var(--margin-left, 0);
+    transition-property: margin-left, opacity;
+    transition-duration: 2.5s, 0.5s;
+    transition-timing-function: ease-in;
+    flex-shrink: 0;
   }
 
   div {

@@ -1,4 +1,8 @@
 <style>
+  div {
+    overflow-x: clip;
+  }
+
   ol {
     display: flex !important;
     list-style: none !important;
@@ -16,7 +20,9 @@
   }
 </style>
 
-<ol>
-  <slot />
-</ol>
+<div>
+  <ol>
+    <slot />
+  </ol>
+</div>
 
