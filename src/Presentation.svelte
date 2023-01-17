@@ -1,23 +1,23 @@
 <script>
-    import Title from './slides/Title.svelte';
-    import AboutTalk from './slides/AboutTalk.svelte';
     import AboutAuthor from './slides/AboutAuthor.svelte';
-    import Quiz from './slides/Quiz.svelte';
-    import Timeline1991 from './slides/Timeline1991.svelte';
+    import AboutTalk from './slides/AboutTalk.svelte';
     import BatmanForever from './slides/BatmanForever.svelte';
     import BertBos from './slides/BertBos.svelte';
     import CHSS from './slides/CHSS.svelte';
     import HakonWiumLie from './slides/Hakon.svelte';
     import HistoryOfWWW from './slides/HistoryOfWWW.svelte';
-    import WorldWideWebBrowser from './slides/WorldWideWebBrowser.svelte';
-    import MosaicBrowser from './slides/MosaicBrowser.svelte';
-    import Timeline1993 from './slides/Timeline1993.svelte';
     import MarcAndreesen from './slides/MarcAndreesen.svelte';
-    import Tags from './slides/Tags.svelte';
+    import MosaicBrowser from './slides/MosaicBrowser.svelte';
     import NetscapeHTML from './slides/NHMTL.svelte';
+    import Quiz from './slides/Quiz.svelte';
+    import Tags from './slides/Tags.svelte';
+    import Timeline1991 from './slides/Timeline1991.svelte';
+    import Timeline1993 from './slides/Timeline1993.svelte';
     import Timeline1994 from './slides/Timeline1994.svelte';
     import Timeline1994_2 from './slides/Timeline1994_2.svelte';
     import Timeline1995 from './slides/Timeline1995.svelte';
+    import Title from './slides/Title.svelte';
+    import WorldWideWebBrowser from './slides/WorldWideWebBrowser.svelte';
 
     export let deck;
 </script>
