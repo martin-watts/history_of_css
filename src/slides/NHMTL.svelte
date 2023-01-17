@@ -6,12 +6,39 @@
   <h2>
     Netscape HTML
   </h2>
-  <p class="text-[34px]">Chief offender for creating custom presentational HTML tags was Netscape. Some were really useful:</p>
+  <p class="text-[32px]">Netscape was the first commercial web browser. It introduced lots of custom HTML tags. Some were really useful:</p>
   <ul class="list-none">
-    <li><code>&lt;CENTER&gt;</code> To center text in its containing element.</li>
-    <li><code>&lt;FONT&gt;</code> The font tag, which can control the size and colour of text.</li>
-    <li><code>&lt;SPACER&gt;</code> A tag that can add extra horizontal or vertical space in a document.</li>
-    <li><code>&lt;NOBR&gt;/&lt;WBR&gt;</code> The no line break tag, and the word break tag (used to negate the NOBR tag).</li>
+    <li>
+      <pre class="inline-block align-middle w-auto mr-5 mt-5">
+        <code data-trim class="hljs data-trim">{@html `<CENTER>`}
+        </code>
+      </pre>
+      <span class="text-[32px]">To center text in its containing element</span>
+    </li>
+    <li>
+      <pre class="inline-block align-middle w-auto mr-5 mt-5">
+        <code data-trim class="hljs">
+          {@html `<FONT color="green" size="3">`}
+        </code>
+      </pre>
+      <span class="text-[32px]">To customise the colour and size of text</span>
+    </li>
+    <li>
+      <pre class="inline-block align-middle w-auto mr-5 mt-5">
+        <code data-trim class="hljs">
+          {@html `<SPACER type="horizontal" size="10">`}
+        </code>
+      </pre>
+      <span class="text-[32px]">To add horizontal or vertical space (the size in pixels)</span>
+    </li>
+    <li>
+      <pre class="inline-block align-middle w-auto mr-5 mt-5">
+        <code data-trim class="hljs">
+          {@html `<NOBR><WBR></WBR></NOBR>`}
+        </code>
+      </pre>
+      <span class="text-[32px]">To control word breaks across lines</span>
+    </li>
   </ul>
 </Slide>
 <Slide>
@@ -20,7 +47,14 @@
   </h2>
   <p class="text-[34px]">...others, less so:</p>
   <ul class="list-none">
-    <li><code>&lt;BLINK&gt;</code><img href="/assets/images/blink_tag.gif"/></li>
+    <li>
+      <pre class="inline-block align-middle w-auto mr-5 mt-5">
+        <code data-trim class="hljs">
+          {@html `<BLINK>`}
+        </code>
+      </pre>
+      <img class="inline ml-5" src="/assets/images/blink_tag.gif" alt="blinking text that says 'like this abomination'"/>
+    </li>
   </ul>
 </Slide>
 
