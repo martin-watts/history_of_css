@@ -14,6 +14,7 @@
     import Tags from './slides/Tags.svelte';
     import NetscapeHTML from './slides/NHMTL.svelte';
     import Timeline1994 from './slides/Timeline1994.svelte';
+    import Timeline1994_2 from './slides/Timeline1994_2.svelte';
 
     export let deck;
 </script>
@@ -32,5 +33,6 @@
 <Timeline1994 deck={deck} />
 <HakonWiumLie />
 <CHSS/>
+<Timeline1994_2 deck={deck} />
 <NetscapeHTML/>
 
