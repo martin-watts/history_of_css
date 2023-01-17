@@ -4,6 +4,7 @@
     import AboutAuthor from './slides/AboutAuthor.svelte';
     import Quiz from './slides/Quiz.svelte';
     import Timeline1991 from './slides/Timeline1991.svelte';
+    import BatmanForever from './slides/BatmanForever.svelte';
     import CHSS from './slides/CHSS.svelte';
     import HakonWiumLie from './slides/Hakon.svelte';
     import HistoryOfWWW from './slides/HistoryOfWWW.svelte';
@@ -35,4 +36,5 @@
 <CHSS/>
 <Timeline1994_2 deck={deck} />
 <NetscapeHTML/>
+<BatmanForever/>
 
