@@ -12,6 +12,7 @@
     import MarcAndreesen from './slides/MarcAndreesen.svelte';
     import Tags from './slides/Tags.svelte';
     import NetscapeHTML from './slides/NHMTL.svelte';
+    import Timeline1994 from './slides/Timeline1994.svelte';
 
     export let deck;
 </script>
@@ -27,6 +28,7 @@
 <MosaicBrowser />
 <MarcAndreesen />
 <Tags />
+<Timeline1994 deck={deck} />
 <HakonWiumLie />
 <NetscapeHTML/>
 
