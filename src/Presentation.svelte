@@ -103,4 +103,6 @@
 <Tables />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,6)}/>
 <WWW3 />
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,7)} />
+<InternetExplorer3 />
 <Acid1 />
