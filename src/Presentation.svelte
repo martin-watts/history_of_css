@@ -112,3 +112,7 @@
 <CSS2 />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,11)}/>
 <Acid1 />
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,12)}/>
+<!-- IE5 broken box model here -->
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,13)}/>
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,14)}/>
