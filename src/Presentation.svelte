@@ -105,4 +105,6 @@
 <WWW3 />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,7)} />
 <InternetExplorer3 />
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,8)}/>
+<CSS1 />
 <Acid1 />
