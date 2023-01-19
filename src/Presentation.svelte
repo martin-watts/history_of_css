@@ -71,9 +71,9 @@
   ];
 </script>
 
-<Title/>
-<AboutTalk/>
-<AboutAuthor/>
+<Title />
+<AboutTalk />
+<AboutAuthor />
 <Quiz deck={deck}/>
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,1)} delayIn={false}/>
 <HistoryOfWWW />
@@ -85,9 +85,9 @@
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,3)} />
 <HakonWiumLie />
 <CHSS/>
-<NetscapeHTML/>
-<BatmanForever/>
 <BertBos/>
-
+<SSS />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,4)} />
+<NetscapeHTML />
+<BatmanForever />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,5)}/>
