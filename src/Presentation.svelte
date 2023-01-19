@@ -5,12 +5,18 @@
     import BatmanForever from './slides/BatmanForever.svelte';
     import BertBos from './slides/BertBos.svelte';
     import CHSS from './slides/CHSS.svelte';
+    import CSS1 from './slides/CSS1.svelte';
+    import CSS2 from './slides/CSS2.svelte';
+    import Finale from './slides/Finale.svelte';
     import HakonWiumLie from './slides/Hakon.svelte';
     import HistoryOfWWW from './slides/HistoryOfWWW.svelte';
+    import InternetExplorer3 from './slides/ie3.svelte';
     import MarcAndreesen from './slides/MarcAndreesen.svelte';
     import MosaicBrowser from './slides/MosaicBrowser.svelte';
     import NetscapeHTML from './slides/NHMTL.svelte';
+    import PreCSS3Hacks from './slides/PreCSS3Hacks.svelte';
     import Quiz from './slides/Quiz.svelte';
+    import SSS from './slides/SSS.svelte';
     import Tables from './slides/Tables.svelte';
     import Tags from './slides/Tags.svelte';
     import Timeline from './slides/Timeline.svelte';
