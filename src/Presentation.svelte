@@ -11,7 +11,6 @@
     import NetscapeHTML from './slides/NHMTL.svelte';
     import Quiz from './slides/Quiz.svelte';
     import Tags from './slides/Tags.svelte';
-    import Timeline1993 from './slides/Timeline1993.svelte';
     import Timeline1994 from './slides/Timeline1994.svelte';
     import Timeline1994_2 from './slides/Timeline1994_2.svelte';
     import Timeline1995 from './slides/Timeline1995.svelte';
@@ -82,7 +81,7 @@
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,1)} delayIn={false}/>
 <HistoryOfWWW />
 <WorldWideWebBrowser />
-<Timeline1993 deck={deck} />
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,2)} />
 <MosaicBrowser />
 <MarcAndreesen />
 <Tags />
