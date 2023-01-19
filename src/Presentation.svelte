@@ -11,6 +11,7 @@
     import MosaicBrowser from './slides/MosaicBrowser.svelte';
     import NetscapeHTML from './slides/NHMTL.svelte';
     import Quiz from './slides/Quiz.svelte';
+    import Tables from './slides/Tables.svelte';
     import Tags from './slides/Tags.svelte';
     import Timeline from './slides/Timeline.svelte';
     import Title from './slides/Title.svelte';
@@ -92,4 +93,5 @@
 <NetscapeHTML />
 <BatmanForever />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,5)}/>
+<Tables />
 <Acid1 />
