@@ -16,6 +16,7 @@
     import Timeline from './slides/Timeline.svelte';
     import Title from './slides/Title.svelte';
     import WorldWideWebBrowser from './slides/WorldWideWebBrowser.svelte';
+    import WWW3 from './slides/WWW3.svelte';
 
     export let deck;
 
@@ -94,4 +95,6 @@
 <BatmanForever />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,5)}/>
 <Tables />
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,6)}/>
+<WWW3 />
 <Acid1 />
