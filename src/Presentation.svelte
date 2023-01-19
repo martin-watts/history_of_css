@@ -11,9 +11,6 @@
     import NetscapeHTML from './slides/NHMTL.svelte';
     import Quiz from './slides/Quiz.svelte';
     import Tags from './slides/Tags.svelte';
-    import Timeline1994 from './slides/Timeline1994.svelte';
-    import Timeline1994_2 from './slides/Timeline1994_2.svelte';
-    import Timeline1995 from './slides/Timeline1995.svelte';
     import Timeline from './slides/Timeline.svelte';
     import Title from './slides/Title.svelte';
     import WorldWideWebBrowser from './slides/WorldWideWebBrowser.svelte';
@@ -85,12 +82,12 @@
 <MosaicBrowser />
 <MarcAndreesen />
 <Tags />
-<Timeline1994 deck={deck} />
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,3)} />
 <HakonWiumLie />
 <CHSS/>
-<Timeline1994_2 deck={deck} />
 <NetscapeHTML/>
 <BatmanForever/>
-<Timeline1995 deck={deck} />
 <BertBos/>
 
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,4)} />
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,5)}/>
