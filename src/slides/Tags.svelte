@@ -6,7 +6,7 @@
   <h2>
     Tags to the rescue?
   </h2>
-  <p class="text-[32px]">
+  <p class="text-[2rem]">
     HTML was designed to be purely structural, but this was at odds with authors wanting more control.
     Over the next few years a bunch of <a href="https://www.w3.org/MarkUp/HTMLPlus/htmlplus_16.html" rel="external">presentational tags</a> 
     were created such as:
