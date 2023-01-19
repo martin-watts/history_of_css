@@ -74,7 +74,7 @@
       title: 'CSS 2.1',
       date: '12th April 2011'
     }, {
-      title: 'CSS3 Modules start reaching recommended status',
+      title: 'CSS 3 Modules start reaching recommended status',
       date: '2012 onwards'
     }
   ];
@@ -119,3 +119,4 @@
 <PreCSS3Hacks />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,15)}/>
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,16)}/>
+<Finale />
