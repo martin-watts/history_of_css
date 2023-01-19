@@ -107,4 +107,7 @@
 <InternetExplorer3 />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,8)}/>
 <CSS1 />
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,9)}/>
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,10)}/>
+<CSS2 />
 <Acid1 />
