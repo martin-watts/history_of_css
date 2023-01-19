@@ -11,22 +11,75 @@
     import NetscapeHTML from './slides/NHMTL.svelte';
     import Quiz from './slides/Quiz.svelte';
     import Tags from './slides/Tags.svelte';
-    import Timeline1991 from './slides/Timeline1991.svelte';
     import Timeline1993 from './slides/Timeline1993.svelte';
     import Timeline1994 from './slides/Timeline1994.svelte';
     import Timeline1994_2 from './slides/Timeline1994_2.svelte';
     import Timeline1995 from './slides/Timeline1995.svelte';
+    import Timeline from './slides/Timeline.svelte';
     import Title from './slides/Title.svelte';
     import WorldWideWebBrowser from './slides/WorldWideWebBrowser.svelte';
 
     export let deck;
+
+    const timelineItems = [{
+      title: 'WWW Released',
+      date: '6th August 1991'
+    }, {
+      title: 'NCSA Mosaic',
+      date: '23rd April 1993'
+    }, {
+      title: 'CHSS Proposal',
+      date: '10th October 1994'
+    }, {
+      title: 'Netscape Navigator 1.0',
+      date: '13th October 1994'
+    }, {
+      title: 'Netscape Navigator 1.1',
+      date: '6th March 1995'
+    }, {
+      title: 'Third World Wide Web Conference',
+      date: '10th April 1995'
+    }, {
+      title: 'Internet Explorer 3',
+      date: '13th August 1996'
+    }, {
+      title: 'CSS v1.0',
+      date: '17th December 1996'
+    }, {
+      title: 'Netscape Navigator 4',
+      date: '11th June 1997'
+    }, {
+      title: 'CSS v2.0',
+      date: '12th May 1998'
+    }, {
+      title: 'Acid1 Test',
+      date: '26th January 1999'
+    }, {
+      title: 'Internet Explorer 5',
+      date: '18th March 1999'
+    }, 
+    //todo: broken ie5 box model
+    {
+      title: 'Internet Explorer 6',
+      date: '24th August 2001'
+    }, {
+      title: 'Firefox 1.0',
+      date: '9th November 2004'
+    }, {
+      title: 'CSS 2.1',
+      date: '12th April 2011'
+    }, {
+      title: 'CSS3 Modules start reaching recommended status',
+      date: '2012 onwards'
+    }
+  ];
 </script>
 
 <Title/>
 <AboutTalk/>
 <AboutAuthor/>
 <Quiz deck={deck}/>
-<Timeline1991 deck={deck}/>
+<Timeline deck={deck} timelineItems={timelineItems.slice(0,1)} delayIn={false}/>
 <HistoryOfWWW />
 <WorldWideWebBrowser />
 <Timeline1993 deck={deck} />
