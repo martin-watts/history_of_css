@@ -1,6 +1,7 @@
 <script>
     import AboutAuthor from './slides/AboutAuthor.svelte';
     import AboutTalk from './slides/AboutTalk.svelte';
+    import Acid1 from './slides/Acid1.svelte';
     import BatmanForever from './slides/BatmanForever.svelte';
     import BertBos from './slides/BertBos.svelte';
     import CHSS from './slides/CHSS.svelte';
@@ -91,3 +92,4 @@
 <NetscapeHTML />
 <BatmanForever />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,5)}/>
+<Acid1 />
