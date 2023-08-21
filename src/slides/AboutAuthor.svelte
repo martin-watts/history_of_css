@@ -38,8 +38,4 @@
     <li class="fragment fade-up mb-5">Basically, I've seen stuff.</li>
   </ul>
 </Slide>
-<Slide data-transition="none">
-  <p class="r-fit-text">
-    On to the talk...
-  </p>
-</Slide>
+
