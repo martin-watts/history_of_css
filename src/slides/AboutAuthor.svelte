@@ -1,10 +1,10 @@
 <script>
+  import { formatDistanceToNowStrict } from 'date-fns';
   import { Row } from 'svelte-layouts';
   import Slide from '../lib/Slide.svelte';
 
-  const currentYear = new Date().getFullYear();
-  const devYears = currentYear - 2002;
-  const proDevYears = currentYear - 2007;
+  const devYears = formatDistanceToNowStrict(new Date('2002-09-01'));
+  const proDevYears = formatDistanceToNowStrict(new Date('2007-10-01'));
 </script>
 
 <Slide data-transition="slide-in">
@@ -19,8 +19,8 @@
       </figcaption>
     </figure>
     <ul class="pl-5 self-center">
-      <li class="fragment fade-up mb-5">I have been writing software for {devYears} years.</li>
-      <li class="fragment fade-up mb-5">People have been paying me to do it for {proDevYears} years.</li>
+      <li class="fragment fade-up mb-5">I have been writing software for {devYears}.</li>
+      <li class="fragment fade-up mb-5">People have been paying me to do it for {proDevYears}.</li>
       <li class="fragment fade-up mb-5">I currently work at Mayden.</li>
       <li class="fragment fade-up">
         I am <em>not</em> a CSS expert, but I do know where the <a href="https://developer.mozilla.org/en-US/" rel="external">Mozilla Developer Network</a> 
