@@ -1,6 +1,7 @@
 <script>
     import AboutAuthor from './slides/AboutAuthor.svelte';
     import AboutTalk from './slides/AboutTalk.svelte';
+    import AboutTalk2 from './slides/AboutTalk2.svelte';
     import Acid1 from './slides/Acid1.svelte';
     import BatmanForever from './slides/BatmanForever.svelte';
     import BertBos from './slides/BertBos.svelte';
@@ -83,6 +84,7 @@
 <Title />
 <AboutTalk />
 <AboutAuthor />
+<AboutTalk2 />
 <Quiz deck={deck}/>
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,1)} delayIn={false}/>
 <HistoryOfWWW />
