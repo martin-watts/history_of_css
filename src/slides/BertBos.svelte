@@ -15,7 +15,7 @@
       </figcaption>
     </figure>
     <div>
-      <p>Bert Bos was building the <a href="https://en.wikipedia.org/wiki/Argo_(web_browser)" rel="external">Argo Browser.</a> at this time.</p>
+      <p>Bert Bos was building the <a href="https://en.wikipedia.org/wiki/Argo_(web_browser)" rel="external">Argo Browser</a> at this time.</p>
       <p>The browser used its own style sheet language called
           <a href="https://www.w3.org/People/Bos/stylesheets.html" rel="external">
             Stream-based Style Sheets
