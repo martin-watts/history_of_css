@@ -15,11 +15,11 @@
       </figcaption>
     </figure>
     <div>
-      <p>Håkon is working with Tim Berners-Lee at CERN in 1994.</p>
-      <p>He has a masters in Visual Studies and has previously worked at the MIT media lab.</p>
+      <p>Håkon was working with Tim Berners-Lee at CERN in 1994.</p>
+      <p>He has a masters in Visual Studies and had previously worked at the MIT media lab.</p>
       <p>
         With some prompting from Tim and <a href="https://en.wikipedia.org/wiki/Dave_Raggett" rel="external">Dave Raggett</a>,
-        Håkon publishes his proposal for 
+        Håkon published his proposal for 
           <a href="https://www.w3.org/People/howcome/p/cascade.html" rel="external">
             Cascading HTML Style Sheets
           </a>
