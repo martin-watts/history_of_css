@@ -44,7 +44,7 @@
       <s>The strike through tag</s>
     </li>
     <li>
-      <pre class="inline-block w-40 mr-5 mt-5">
+      <pre class="inline-block w-auto mr-5 mt-5">
         <code data-trim class="hljs">
           {@html `<sup>`}
         </code>
@@ -52,7 +52,7 @@
       <sup>The superscript tag</sup>
     </li>
     <li>
-      <pre class="inline-block w-40 mr-5 mt-5">
+      <pre class="inline-block w-auto mr-5 mt-5">
         <code data-trim class="hljs data-trim">
           {@html `<sub>`}
         </code>
