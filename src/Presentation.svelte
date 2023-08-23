@@ -8,6 +8,7 @@
     import CHSS from './slides/CHSS.svelte';
     import CSS1 from './slides/CSS1.svelte';
     import CSS2 from './slides/CSS2.svelte';
+    import CSS3 from './slides/CSS3.svelte';
     import Finale from './slides/Finale.svelte';
     import HakonWiumLie from './slides/Hakon.svelte';
     import HistoryOfWWW from './slides/HistoryOfWWW.svelte';
@@ -121,4 +122,5 @@
 <PreCSS3Hacks />
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,15)}/>
 <Timeline deck={deck} timelineItems={timelineItems.slice(0,16)}/>
+<CSS3 />
 <Finale />
