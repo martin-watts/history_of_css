@@ -20,9 +20,13 @@
   }
 </style>
 
+<script>
+  let  { children } = $props();
+</script>
+
 <div>
   <ol>
-    <slot />
+    {@render children?.()}
   </ol>
 </div>
 

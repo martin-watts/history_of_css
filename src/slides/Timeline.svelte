@@ -3,18 +3,19 @@
   import Timeline from '../lib/Timeline.svelte';
   import TimelineItem from '../lib/TimelineItem.svelte';
 
-  export let deck;
-  export let timelineItems = [];
-  export let delayIn = true
+  let {
+    deck,
+    timelineItems = [],
+    delayIn 
+  } = $props();
 
-  let restartAnimationLast;
-  let restartAnimationNext;
-  let transitionStart = false;
+  let restartAnimationLast = $state();
+  let restartAnimationNext = $state();
+  let transitionStart = $state(false);
+  let timelineItemWidth = $state(27);
+  let secondSlideId = $state((Math.random() + 1).toString(36).substring(7));
 
-  const timelineItemWidth = 27;
-  const secondSlideId = (Math.random() + 1).toString(36).substring(7);
-
-  $: {
+  $effect(() => {
     if (deck) {
       deck.on('slidechanged', event => {
         if (event.currentSlide.dataset.id === secondSlideId) {
@@ -26,7 +27,7 @@
         }
       });
     }
-  }
+  })
 </script>
 
 <Slide data-transition="none">
@@ -39,7 +40,7 @@
           beforeLine
           afterLine={i < timelineItems.length - 2}
           --margin-left={i === 0 && timelineItems.length > 2 ? `-${(timelineItems.length - 3) * timelineItemWidth}rem` : 0}
-          --opacity={i < timelineItems.length - 1 ? 100 : 0}
+          --opacity={i < timelineItems.length - 1 ? '100' : '0'}
         />
       {/if}
     {/each}
@@ -73,9 +74,9 @@
         title={timelineItems[timelineItems.length - 1].title}
         date={timelineItems[timelineItems.length - 1].date}
         beforeLine
-        animateIn
+        animateIn={true}
         bind:restartAnimation={restartAnimationNext}
-        --opacity={transitionStart ? 100 : 0}
+        --opacity={transitionStart ? '100' : '0'}
         delayIn={delayIn}
       />
     {/if}

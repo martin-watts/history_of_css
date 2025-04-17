@@ -44,46 +44,50 @@
 </style>
 
 <script>
-  let svgElement;
+  let svgElement = $state();
 
-  export let title;
-  export let date;
-  export let iconX = 'calc(50% - 1.5rem)';
-  export let iconY = 20;
-  export let iconSize = 15;
-  export let animateIn = false;
-  export let delayIn = true;
-  export let animateOut = false;
-  export let beforeLine = false;
-  export let afterLine = false;
-  export const restartAnimation = () => {
-    if (!svgElement) {
-      return;
-    }
+  let { 
+    title,
+    date,
+    icon,
+    iconX = 'calc(50% - 1.5rem)',
+    iconY = 20,
+    iconSize = 15,
+    animateIn = false,
+    delayIn = true,
+    animateOut = false,
+    beforeLine = false,
+    afterLine = false,
+    restartAnimation = $bindable()
+  } = $props();
 
-    const animations = svgElement.querySelectorAll('animate');
-
-    animations.forEach(animation => {
-      const delay = animation.getAttribute('begin');
-
-      if (delay) {
-        animation.parentElement.style.display='none';
-        const removeDisplayNone = () => animation.parentElement.style.display = '';
-
-        animation.addEventListener('beginEvent', removeDisplayNone, { once: true })
-        animation.beginElementAt(delay.replace('s', ''));
-      } else {
-        animation.beginElement();
+  restartAnimation = () => {
+      if (!svgElement) {
+        return;
       }
-    });
+
+      const animations = svgElement.querySelectorAll('animate');
+
+      animations.forEach(animation => {
+        const delay = animation.getAttribute('begin');
+
+        if (delay) {
+          animation.parentElement.style.display='none';
+          const removeDisplayNone = () => animation.parentElement.style.display = '';
+
+          animation.addEventListener('beginEvent', removeDisplayNone, { once: true })
+          animation.beginElementAt(delay.replace('s', ''));
+        } else {
+          animation.beginElement();
+        }
+      });
   }
 </script>
 
 
-
 <li>
-  {#if $$slots.icon}
-    <slot name="icon" />
+  {#if icon}
+    {@render icon()}
   {:else}
     <svg bind:this={svgElement}>
       {#if beforeLine}
@@ -138,7 +142,6 @@
         {date}
       </p>
     {/if}
-    <slot />
   </div>
 </li>
 
