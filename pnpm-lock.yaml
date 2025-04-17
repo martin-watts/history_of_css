@@ -21,8 +21,8 @@ importers:
         specifier: ^8.4.28
         version: 8.5.3
       reveal.js:
-        specifier: ^4.5.0
-        version: 4.6.1
+        specifier: ^5.2.1
+        version: 5.2.1
       svelte:
         specifier: ^5.27.2
         version: 5.27.2
@@ -752,9 +752,9 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  reveal.js@4.6.1:
-    resolution: {integrity: sha512-1CW0auaXNPmwmvQ7TwpszwVxMi2Xr5cTS3J3EBC/HHgbPF32Dn7aiu/LKWDOGjMbaDwKQiGmfqcoGQ74HUHCMw==}
-    engines: {node: '>=10.0.0'}
+  reveal.js@5.2.1:
+    resolution: {integrity: sha512-r7//6mIM5p34hFiDMvYfXgyjXqGRta+/psd9YtytsgRlrpRzFv4RbH76TXd2qD+7ZPZEbpBDhdRhJaFgfQ7zNQ==}
+    engines: {node: '>=18.0.0'}
 
   rollup@4.40.0:
     resolution: {integrity: sha512-Noe455xmA96nnqH5piFtLobsGbCij7Tu+tb3c1vYjNbTkfzGqXqQXG3wJaYXkRZuQ0vEYN4bhwg7QnIrqB5B+w==}
@@ -1478,7 +1478,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  reveal.js@4.6.1: {}
+  reveal.js@5.2.1: {}
 
   rollup@4.40.0:
     dependencies:
