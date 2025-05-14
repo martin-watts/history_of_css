@@ -14,7 +14,8 @@
   <ul class="list-none">
     <li>
       <pre class="inline-block w-28 mr-5 mt-5">
-        <code data-trim class="hljs data-trim">{@html `<b>`}
+        <code data-trim data-no-escape class="hljs">
+          {'<b></b>'}
         </code>
       </pre>
       <b>The boldface tag</b>
@@ -22,7 +23,7 @@
     <li>
       <pre class="inline-block w-28 mr-5 mt-5">
         <code data-trim class="hljs">
-          {@html `<i>`}
+          {'<i></i>'}
         </code>
       </pre>
       <i>The italic tag</i>
@@ -30,7 +31,7 @@
     <li>
       <pre class="inline-block w-28 mr-5 mt-5">
         <code data-trim class="hljs">
-          {@html `<u>`}
+          {'<u></u>'}
         </code>
       </pre>
       <u>The underline tag</u>
@@ -38,7 +39,7 @@
     <li>
       <pre class="inline-block w-28 mr-5 mt-5">
         <code data-trim class="hljs">
-          {@html `<s>`}
+          {'<s></s>'}
         </code>
       </pre>
       <s>The strike through tag</s>
@@ -46,7 +47,7 @@
     <li>
       <pre class="inline-block w-auto mr-5 mt-5">
         <code data-trim class="hljs">
-          {@html `<sup>`}
+          {'<sup></sup>'}
         </code>
       </pre>
       <sup>The superscript tag</sup>
@@ -54,7 +55,7 @@
     <li>
       <pre class="inline-block w-auto mr-5 mt-5">
         <code data-trim class="hljs data-trim">
-          {@html `<sub>`}
+          {'<sub></sub>'}
         </code>
       </pre>
       <sub>The subscript tag</sub>

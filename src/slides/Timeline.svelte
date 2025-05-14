@@ -30,7 +30,7 @@
   })
 </script>
 
-<Slide data-transition="none">
+<Slide data-transition="none" class="top-16">
   <Timeline>
     {#each timelineItems as item, i}
       {#if i < timelineItems.length}
@@ -46,7 +46,7 @@
     {/each}
   </Timeline>
 </Slide>
-<Slide data-transition="none" data-id={secondSlideId}>
+<Slide data-transition="none" data-id={secondSlideId} class="top-16">
   <Timeline>
     {#if timelineItems.length > 0 }
       {#each timelineItems as item, i}

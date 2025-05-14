@@ -1,6 +1,4 @@
 <script>
-  import 'reveal.js/dist/reveal.css';
-
   import Reveal from 'reveal.js';
   import { onMount, tick } from 'svelte';
 

@@ -15,7 +15,7 @@
     <li class="fragment fade-up">Browser makers all agreed to implement 100% of the standard...</li>
 </Slide>
 <Slide>
-  <img class="object-contain w-[38rem] ml-auto mr-auto" src="/assets/images/goodfellas-henry-hill.gif" alt="A GIF of Ray Liotta - playing the gangster Henry Hill in Goodfellas - laughing"/>
+  <img class="object-contain w-152 ml-auto mr-auto" src="/assets/images/goodfellas-henry-hill.gif" alt="A GIF of Ray Liotta - playing the gangster Henry Hill in Goodfellas - laughing"/>
   <p>No, of course they didn't!</p>
 </Slide>
 

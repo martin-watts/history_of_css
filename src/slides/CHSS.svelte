@@ -26,7 +26,7 @@
 
   <p class="text-left">Also thoughts about responsive styles:</p>
 
-  <pre class="w-[61.5rem]">
+  <pre class="w-246">
     <code class="hljs" data-trim>
       {`
         AGE > 3d ? background.color = pale_yellow : background.color = white

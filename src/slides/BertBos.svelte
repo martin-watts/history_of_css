@@ -9,7 +9,7 @@
   </h2>
   <Row class="r-stretch text-left">
     <figure class="r-stretch">
-      <img class="object-contain w-[80rem]" src="/assets/images/bert.jpg" alt="Bert Bos in 1995"/>
+      <img class="object-contain w-7xl" src="/assets/images/bert.jpg" alt="Bert Bos in 1995"/>
       <figcaption class="text-[24px]">
         Bert in 1995
       </figcaption>

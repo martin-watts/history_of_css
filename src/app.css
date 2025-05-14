@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss' important;
 
 :root {
   --onyx: #3d3d3dff;
@@ -61,3 +59,4 @@
 .translate-x-19p6 {
   transform: translateX(19.6rem);
 }
+

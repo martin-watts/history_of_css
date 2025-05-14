@@ -9,7 +9,7 @@
   </h2>
   <Row class="r-stretch text-left">
     <figure class="r-stretch">
-      <img class="object-contain w-[80rem]" src="/assets/images/hakon.jpg" alt="Håkon Wium Lie in 1995"/>
+      <img class="object-contain w-7xl" src="/assets/images/hakon.jpg" alt="Håkon Wium Lie in 1995"/>
       <figcaption class="text-[24px]">
         Håkon in 1995
       </figcaption>

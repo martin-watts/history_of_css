@@ -16,7 +16,7 @@
     Tables - the original grid system
   </h2>
   <figure class="r-stretch">
-    <img class="object-contain w-[33rem] m-auto" src="/assets/images/adobe_1996.png" alt="Adobe.com as it appeared in 1996"/>
+    <img class="object-contain w-132 m-auto" src="/assets/images/adobe_1996.png" alt="Adobe.com as it appeared in 1996"/>
     <figcaption class="text-[24px]">
       <a href="https://web.archive.org/web/19961228111753/http://www2.adobe.com/" rel="external">Adobe.com in 1996</a> courtesy of <a href="https://web.archive.org">The Wayback Machine</a>
     </figcaption>
@@ -27,7 +27,7 @@
     Tables - the original grid system
   </h2>
   <figure class="r-stretch">
-    <img class="object-contain w-[33rem] m-auto" src="/assets/images/adobe_1996_highlight.png" alt="Adobe.com as it appeared in 1996 with tables/table cells outlined - there are lots of tables here"/>
+    <img class="object-contain w-132 m-auto" src="/assets/images/adobe_1996_highlight.png" alt="Adobe.com as it appeared in 1996 with tables/table cells outlined - there are lots of tables here"/>
     <figcaption class="text-[24px]">
       <a href="https://web.archive.org/web/19961228111753/http://www2.adobe.com/" rel="external">Adobe.com in 1996 - with tables highlighted</a> courtesy of <a href="https://web.archive.org">The Wayback Machine</a>
     </figcaption>
@@ -39,7 +39,7 @@
   </h2>
   <Row class="r-stretch">
     <figure class="r-stretch">
-      <img class="object-contain w-[33rem] m-auto" src="/assets/images/adobe_1996_highlight.png" alt="Adobe.com as it appeared in 1996 with tables/table cells outlined - there are lots of tables here"/>
+      <img class="object-contain w-132 m-auto" src="/assets/images/adobe_1996_highlight.png" alt="Adobe.com as it appeared in 1996 with tables/table cells outlined - there are lots of tables here"/>
       <figcaption class="text-[24px]">
         <a href="https://web.archive.org/web/19961228111753/http://www2.adobe.com/" rel="external">Adobe.com in 1996 - with tables highlighted</a> courtesy of <a href="https://web.archive.org">The Wayback Machine</a>
       </figcaption>

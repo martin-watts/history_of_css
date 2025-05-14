@@ -10,7 +10,8 @@
   <ul class="list-none">
     <li>
       <pre class="inline-block align-middle w-auto mr-5 mt-5">
-        <code data-trim class="hljs data-trim">{@html `<CENTER>`}
+        <code data-trim class="hljs data-trim">
+          {'<CENTER>'}
         </code>
       </pre>
       <span class="text-[2rem]">To center text in its containing element</span>
@@ -18,7 +19,7 @@
     <li>
       <pre class="inline-block align-middle w-auto mr-5 mt-5">
         <code data-trim class="hljs">
-          {@html `<FONT color="green" size="3">`}
+          {'<FONT color="green" size="3">'}
         </code>
       </pre>
       <span class="text-[2rem]">To customise the colour and size of text</span>
@@ -26,7 +27,7 @@
     <li>
       <pre class="inline-block align-middle w-auto mr-5 mt-5">
         <code data-trim class="hljs">
-          {@html `<SPACER type="horizontal" size="10">`}
+          {'<SPACER type="horizontal" size="10">'}
         </code>
       </pre>
       <span class="text-[2rem]">To add horizontal or vertical space (the size in pixels)</span>
@@ -34,7 +35,7 @@
     <li>
       <pre class="inline-block align-middle w-auto mr-5 mt-5">
         <code data-trim class="hljs">
-          {@html `<NOBR><WBR></WBR></NOBR>`}
+          {'<NOBR><WBR></WBR></NOBR>'}
         </code>
       </pre>
       <span class="text-[2rem]">To control word breaks across lines</span>
@@ -50,7 +51,7 @@
     <li>
       <pre class="inline-block align-middle w-auto mr-5 mt-5">
         <code data-trim class="hljs">
-          {@html `<BLINK>`}
+          {'<BLINK>'}
         </code>
       </pre>
       <img class="inline ml-5" src="/assets/images/blink_tag.gif" alt="blinking text that says 'like this abomination'"/>

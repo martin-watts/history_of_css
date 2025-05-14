@@ -19,7 +19,7 @@
   </h2>
   <h3>1: Float based layouts</h3>
   <p>CSS Tricks has a <a href="https://css-tricks.com/almanac/properties/f/float/">really good float explanation</a>. <span class="font-mono">float</span>'s original intent was to take an element out of the page flow so that text could flow around it e.g.</p>
-  <img class="object-contain w-[33rem] m-auto" src="/assets/images/float.png" alt="A pool float ring"/>
+  <img class="object-contain w-132 m-auto" src="/assets/images/float.png" alt="A pool float ring"/>
 </Slide>
 <Slide>
   <h2 class="text-[3.7rem]">

@@ -13,7 +13,7 @@
   </h2>
   <Row class="r-stretch">
     <figure class="r-stretch">
-      <img class="object-contain w-[80rem]" src="/assets/images/old_me.webp" alt="Martin looking very old"/>
+      <img class="object-contain w-7xl" src="/assets/images/old_me.webp" alt="Martin looking very old"/>
       <figcaption class="text-[24px] text-left">
         ^ Me when I think about how long I've been doing this.
       </figcaption>
